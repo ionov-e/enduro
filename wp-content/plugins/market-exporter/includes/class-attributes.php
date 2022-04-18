@@ -230,11 +230,11 @@ class Attributes {
 		$yml = '';
 
 		// Get images.
-		$main_image = get_the_post_thumbnail_url( $offer->get_id(), 'medium' );  //  MINE-MINE (medium instead of full)
+		$main_image = get_the_post_thumbnail_url( $offer->get_id(), 'medium' );  //  MINE-MINE ('medium' instead of 'full')
 
 		// If no image found for product, it's probably a variation without an image, get the image from parent.
 		if ( ! $main_image ) {
-			$main_image = get_the_post_thumbnail_url( $product->get_id(), 'medium' );  //  MINE-MINE (medium instead of full)
+			$main_image = get_the_post_thumbnail_url( $product->get_id(), 'medium' );  //  MINE-MINE ('medium' instead of 'full')
 		}
 		
 		$main_image = str_replace( '.jpg', '_yandex_.jpg', $main_image );  //  MINE-MINE
