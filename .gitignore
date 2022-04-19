@@ -1,0 +1,40 @@
+# Ignore everything
+*
+# Except:
+
+# -------------------- Plugin customization
+!wp-content/plugins/market-exporter/includes/class-attributes.php
+!wp-content/plugins/market-exporter/includes/class-generator.php
+
+!wp-content/plugins/product-watermark-for-woocommerce/main.php
+
+# -------------------- Theme customization
+
+!wp-content/themes/enfold/functions.php
+
+!wp-content/themes/enfold/header.php
+
+!wp-content/themes/enfold/config-woocommerce/config.php
+
+!wp-content/themes/enfold/woocommerce
+
+# 404 кастомизация
+
+!wp-content/themes/enfold/includes/error404.php
+
+# Мелки исправление в тексте
+
+!wp-content/themes/enfold/lang/ru_RU.po
+!wp-content/themes/enfold/lang/ru_RU.mo
+
+# adding Telegram to sidebar (instead of Flickr)
+
+!wp-content/themes/enfold/config-layerslider/LayerSlider/assets/static/font-awesome/css/font-awesome.min.css
+!wp-content/themes/enfold/config-layerslider/LayerSlider/assets/static/font-awesome-latest/css/all.min.css
+!wp-content/themes/enfold/config-layerslider/LayerSlider/assets/templates/tmpl-insert-icons-modal.php
+
+!wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/charmap-compat.php
+!wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/charmap.php
+!wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/config.json
+!wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.svg
+!wp-content/themes/enfold/framework/images/icons/social_flickr.png
